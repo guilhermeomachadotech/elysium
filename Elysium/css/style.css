@@ -27,8 +27,8 @@ body{
 :root{
     --color-background-nav: #0e2d54;
     --color-back-container: #5488c8;
-    --color-neutral-20: ;
-    --color-neutral-30: ;
+    --color-neutral-20: #e8e9ed;
+    --color-neutral-30: white ;
 }
 /*navbar*/
 header{
@@ -42,7 +42,7 @@ nav{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: var(--color-background-nav);
+    background-color: var(--color-neutral-20);
     width: 100%;
     height: 10vh;
 }
@@ -63,10 +63,9 @@ nav{
 .nav-list a{
     text-decoration: none;
     text-transform: uppercase;
-    color: var(--color-neutral-0);
+    color: var(--color-background-nav);
     font-family: "caviar-dreams";
     font-weight: bold;
-    color: white;
     padding: 8px;
     border-radius: 20px 20px;
     transition: 0.2s ease-in;
@@ -77,12 +76,12 @@ nav{
         background:none;
     }
     to{
-        background-color: #fefefe;
+        background-color:var(--color-background-nav);
     }
 }
 
 .nav-list li a:hover{
-    color: var(--color-background-nav);
+    color: var(--color-neutral-30);
     animation: animateBackLink ease-in-out 0.5s both;
 }
 
@@ -264,7 +263,7 @@ main{
     display: flex;
     flex: 1;
     flex-direction: column;
-    background-color: #e8e9ed;
+    background-color:var(--color-neutral-30);
 }
 .container-principal{
     display: flex;

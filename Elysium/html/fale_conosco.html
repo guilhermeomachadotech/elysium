@@ -37,7 +37,7 @@
                 </div>
             </div>
             <div class="segundo-container">
-                <form method="post" action="" class="formulario" name="form">
+                <form method="post" action="../php/enviar-email.php" class="formulario" name="form">
                     <div class="card-header">
                         <h1 class="titulo">Fale Conosco</h1>
                     </div>
@@ -47,16 +47,19 @@
                         <div class="card-content-area">
                             <label for="nome">Nome</label>
                             <input type="text" name="nome" id="nome" placeholder="Digite seu nome..." >
+                            <div class="errorName" id="errorContent"></div>
                         </div>
     
                         <div class="card-content-area">
                             <label for="email">Email</label>
                             <input type="email" name="email" id="email" placeholder="Digite seu email..." >
+                            <div class="errorEmail" id="errorContent"></div>
                         </div>
     
                         <div class="card-content-area">
                             <label for="mensagem">Mensagem</label>
                             <textarea name="msg" id="msg" cols="30" rows="4" ></textarea>
+                            <div class="errorMsg" id="errorContent"></div>
                         </div>
     
                     </div>

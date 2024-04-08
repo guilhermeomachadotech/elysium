@@ -1,7 +1,7 @@
 <?php
-    $nome=addslashes($_POST['nome']);
-    $email=addcslashes($_POST['email']);
-    $msg=addcslashes($_POST['msg']);
+    $nome=$_POST['nome'];
+    $email=$_POST['email'];
+    $msg=$_POST['msg'];
 
     $destinatario = 'machado.gui.oliveira@gmail.com';
     $assunto = 'Mesagem de usuário | Elysium';

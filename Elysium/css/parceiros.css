@@ -1,0 +1,103 @@
+@font-face {
+    font-family: 'Abadi-Extra-Light';
+    src: url('../fonts/AbadiMTStd-ExtraLight.ttf');
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Abadi-Extra-Light';
+}
+.titulo-parceiros{
+    font-weight: bold;
+    text-align: center;
+    font-size: 36px;
+    color: #123e63;
+    margin-top: 2%;
+}
+.container-parceiros{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: row wrap;
+
+}
+
+.contCard-parceiros{
+    width: 1800px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card-parceiros{
+    background-color: #f0f0f0;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 4px 4px 8px #00000022;
+    transition: 0.1s ease-in;
+}
+
+.card-parceiros:hover{
+    transform: scale(1.04);
+}
+
+.container-parceiros .card-parceiros{
+    position: relative;
+    padding: 40px;
+    width: 380px;
+    margin: 12px;
+    overflow: hidden;
+}
+
+.imgCard-parceiros{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.imagem-parceiros{
+    width: 160px;
+}
+
+.empresa{
+    font-size: 22px;
+    color: #123e63;
+    font-weight: bold;
+}
+
+.desc{
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.txt-empresa{
+    color: #123e63;
+    text-align: justify;
+}
+
+.btn-empresa{
+    background-color: #123e63;
+    width: 65%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 26px;
+    border-radius: 15px;
+    padding: 4px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.link{
+    text-decoration: none;
+    color: #fff;
+}
+
+.btn-empresa:hover{
+    background-color: #123f63bd;
+}
